@@ -163,7 +163,7 @@ dotenv.config()
 
 const ownervb = process.env.OWNER_NUMBER;
 if (!ownervb){
-   throw new Error("OWNER_NUMBER var env is not set please set it e.g 923092668108,Prince");
+   throw new Error("OWNER_NUMBER var env is not set please set it e.g 2347069482550,Prince");
 }
 
 const ownerlist = ownervb.split(',');
